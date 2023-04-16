@@ -7,19 +7,22 @@
   ],
   "type": "endless:extreme_craft",
   "pattern": [
-    "BAAACAAAD",
+    "BAXACAXAD",
     "ATTJKLTTA",
-    "ATUUMUUTA",
+    "XTUUMUUTX",
     "ANUOPOUQA",
     "EUUPRPUUF",
     "ASUOPOUSA",
-    "ATUUUUUTA",
-    "ATTSUSTTA",
-    "GAAAHAAAI"
+    "ATUUUUUTX",
+    "XTTSUSTTA",
+    "GAXAHAXAI"
   ],
   "key": {
     "A": {
-      "item": "endless:infinity_ingot"
+      "item": "mythicbotany:alfsteel_armor_upgrade"
+    },
+    "X": {
+      "item": "extrabotany:orichalcos"
     },
     "B": {
       "item": "botania:rune_envy"

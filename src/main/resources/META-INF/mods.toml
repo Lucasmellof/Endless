@@ -3,14 +3,14 @@ loaderVersion="[36,)"
 license="All rights reserved"
 [[mods]] #mandatory
 modId="endless"
-version="1.16.5-1.4.8"
+version="1.16.5-1.4.8-CARMELLO-EDIT"
 displayName="Endless"
 authors="yuo"
 description='''
-无尽贪婪。1.16.5
+Endless Mod - Carmello Edited - 1.16.5
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
-[[dependencies.examplemod]] #optional
+[[dependencies.endless]] #optional
     # the modid of the dependency
     modId="forge" #mandatory
     # Does this dependency have to exist - if not, ordering below must be specified
