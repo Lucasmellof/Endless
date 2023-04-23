@@ -12,7 +12,7 @@ import net.minecraft.world.World;
 
 import javax.annotation.Nullable;
 
-public class NeutronCollector extends AbsNeutronCollector{
+public class    NeutronCollector extends AbsNeutronCollector{
 
     public NeutronCollector() {
         super();

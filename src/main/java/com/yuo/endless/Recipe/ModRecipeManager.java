@@ -474,8 +474,8 @@ public class ModRecipeManager {
 		CompressorManager.addInputs(
 				Singularity.getSingularity("silver"),
 				getList(
-						new ItemStack(IafItemRegistry.COPPER_INGOT),
-						new ItemStack(BlockList.COPPER_INGOT.get())
+						new ItemStack(IafItemRegistry.SILVER_INGOT),
+						new ItemStack(BlockList.SILVER_INGOT.get())
 				)
 		);
 		CompressorManager.addInputs(

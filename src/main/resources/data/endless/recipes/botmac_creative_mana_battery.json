@@ -2,7 +2,7 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "botania"
+      "modid": "botanicalmachinery"
     }
   ],
   "type": "endless:extreme_craft",
@@ -25,10 +25,10 @@
       "item": "mythicbotany:alfsteel_armor_upgrade"
     },
     "C": {
-      "item": "botania:mana_pool"
+      "item": "botanicalmachinery:mana_battery"
     },
     "D": {
-      "item": "botania:fabulous_pool"
+      "item": "extrabotany:orichalcos"
     },
     "E": {
       "item": "botania:dragonstone_block"
@@ -38,6 +38,6 @@
     }
   },
   "result": {
-    "item": "botania:creative_pool"
+    "item": "botanicalmachinery:mana_battery_creative"
   }
 }
