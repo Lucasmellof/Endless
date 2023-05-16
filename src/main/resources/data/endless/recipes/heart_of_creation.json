@@ -1,0 +1,56 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "enigmaticlegacy"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    }
+  ],
+  "type": "endless:extreme_craft",
+  "pattern": [
+    "         ",
+    "         ",
+    "   EVE   ",
+    "  EHIBE  ",
+    "  EISIE  ",
+    "  EAIOE  ",
+    "   ENE   ",
+    "         ",
+    "         "
+  ],
+  "key": {
+    "E": {
+      "item": "enigmaticlegacy:etherium_ore"
+    },
+    "S": {
+      "item": "extendedcrafting:ender_star_block"
+    },
+    "V": {
+      "item": "enigmaticlegacy:void_pearl"
+    },
+    "H": {
+      "item": "enigmaticlegacy:golem_heart"
+    },
+    "B": {
+      "item": "enigmaticlegacy:magma_heart"
+    },
+    "I": {
+      "item": "enigmaticlegacy:etherium_ingot"
+    },
+    "A": {
+      "item": "enigmaticlegacy:angel_blessing"
+    },
+    "N": {
+      "item": "enigmaticlegacy:eye_of_nebula"
+    },
+    "O": {
+      "item": "enigmaticlegacy:ocean_stone"
+    }
+  },
+  "result": {
+    "item": "enigmaticlegacy:enigmatic_item"
+  }
+}

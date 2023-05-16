@@ -23,7 +23,7 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 apply plugin: 'org.spongepowered.mixin'
 
-version = '1.16.5-1.4.9-CARMELLO'
+version = '1.16.5-1.4.13-CARMELLO'
 group = 'com.github.yuoft' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'Endless'
 
@@ -164,6 +164,9 @@ dependencies {
     compileOnly("curse.maven:extreme-reactors-250277:4338924")
     compileOnly("curse.maven:zerocor-247921:4338923")
     compileOnly("curse.maven:ato-405593:3405905")
+    compileOnly("curse.maven:industrial-foregoing-266515:3446262")
+    compileOnly("curse.maven:enigmatic-legacy-336184:3758580")
+    compileOnly("curse.maven:titanium-287342:3525770")
     compileOnly("slimeknights.mantle:Mantle:1.16.5-1.6.158")
     compileOnly("slimeknights.tconstruct:TConstruct:1.16.5-3.3.4.335")
 
