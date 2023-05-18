@@ -21,9 +21,9 @@ apply plugin: 'net.minecraftforge.gradle'
 // Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
-apply plugin: 'org.spongepowered.mixin'
+//apply plugin: 'org.spongepowered.mixin'
 
-version = '1.16.5-1.4.13-CARMELLO'
+version = '1.16.5-1.4.15-CARMELLO'
 group = 'com.github.yuoft' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'Endless'
 
@@ -43,9 +43,9 @@ minecraft {
     runs {
         client {
             workingDirectory project.file('run')
-            property 'mixin.env.remapRefMap','true'
-            property 'mixin.env.refMapRemappingFile', "${project.projectDir}/build/createSrgToMcp/output.srg"
-            arg "-mixin.config=endless.mixins.json"
+//            property 'mixin.env.remapRefMap','true'
+//            property 'mixin.env.refMapRemappingFile', "${project.projectDir}/build/createSrgToMcp/output.srg"
+//            arg "-mixin.config=endless.mixins.json"
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
             mods {
@@ -56,9 +56,9 @@ minecraft {
         }
         server {
             workingDirectory project.file('run')
-            property 'mixin.env.remapRefMap','true'
-            property 'mixin.env.refMapRemappingFile', "${project.projectDir}/build/createSrgToMcp/output.srg"
-            arg "-mixin.config=endless.mixins.json"
+//            property 'mixin.env.remapRefMap','true'
+//            property 'mixin.env.refMapRemappingFile', "${project.projectDir}/build/createSrgToMcp/output.srg"
+//            arg "-mixin.config=endless.mixins.json"
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
             mods {
@@ -69,9 +69,9 @@ minecraft {
         }
         data {
             workingDirectory project.file('run')
-            property 'mixin.env.remapRefMap','true'
-            property 'mixin.env.refMapRemappingFile', "${project.projectDir}/build/createSrgToMcp/output.srg"
-            arg "-mixin.config=endless.mixins.json"
+//            property 'mixin.env.remapRefMap','true'
+//            property 'mixin.env.refMapRemappingFile', "${project.projectDir}/build/createSrgToMcp/output.srg"
+//            arg "-mixin.config=endless.mixins.json"
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
             args '--mod', 'endless', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
@@ -171,13 +171,13 @@ dependencies {
     compileOnly("slimeknights.tconstruct:TConstruct:1.16.5-3.3.4.335")
 
     runtimeOnly fg.deobf("com.blamejared.crafttweaker:CraftTweaker-1.16.5:7.1.2.510")
-    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+//    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 }
-mixin {
-    add sourceSets.main, "stonks.refmap.json"
-
-    config 'endless.mixins.json'
-}
+//mixin {
+//    add sourceSets.main, "stonks.refmap.json"
+//
+//    config 'endless.mixins.json'
+//}
 // Example for how to get properties into the manifest for reading by the runtime..
 jar {
     manifest {
@@ -189,7 +189,6 @@ jar {
             "Implementation-Version": "${version}",
             "Implementation-Vendor" :"yuoft",
             "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ"),
-            "MixinConfigs" : "endless.mixins.json"
         ])
     }
 }

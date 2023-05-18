@@ -484,7 +484,7 @@ public class ModRecipeManager {
         );
 
         CompressorManager.addRecipe(Singularity.getSingularity("nuke"),
-                16,getList(ModuleTool.INFINITY_NUKE.createStack(9223372036854775807L,1000000, true)));
+                4, getList(ModuleTool.INFINITY_NUKE.createStack(9223372036854775807L,1000000, true)));
     }
 
     /**
